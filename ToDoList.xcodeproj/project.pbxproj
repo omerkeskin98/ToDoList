@@ -9,23 +9,40 @@
 /* Begin PBXBuildFile section */
 		1759F3C82BFB67E900E3C2F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759F3C72BFB67E900E3C2F6 /* AppDelegate.swift */; };
 		1759F3CA2BFB67E900E3C2F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759F3C92BFB67E900E3C2F6 /* SceneDelegate.swift */; };
-		1759F3CC2BFB67E900E3C2F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759F3CB2BFB67E900E3C2F6 /* ViewController.swift */; };
+		1759F3CC2BFB67E900E3C2F6 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759F3CB2BFB67E900E3C2F6 /* MainPage.swift */; };
 		1759F3CF2BFB67E900E3C2F6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1759F3CE2BFB67E900E3C2F6 /* Base */; };
 		1759F3D22BFB67E900E3C2F6 /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1759F3D02BFB67E900E3C2F6 /* ToDoList.xcdatamodeld */; };
 		1759F3D42BFB67EA00E3C2F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1759F3D32BFB67EA00E3C2F6 /* Assets.xcassets */; };
 		1759F3D72BFB67EA00E3C2F6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1759F3D62BFB67EA00E3C2F6 /* Base */; };
+		1759F3E52BFB6E9100E3C2F6 /* MainListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759F3E42BFB6E9100E3C2F6 /* MainListTableViewCell.swift */; };
+		1759F3E82BFB6EC800E3C2F6 /* MainPageVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759F3E72BFB6EC800E3C2F6 /* MainPageVM.swift */; };
+		1759F3EA2BFB6ED500E3C2F6 /* DetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759F3E92BFB6ED500E3C2F6 /* DetailVM.swift */; };
+		1759F3F22BFB6F6E00E3C2F6 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759F3F12BFB6F6E00E3C2F6 /* Repository.swift */; };
+		1759F3F42BFB6F9800E3C2F6 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759F3F32BFB6F9800E3C2F6 /* Tasks.swift */; };
+		1759F3F62BFB864300E3C2F6 /* NewTaskVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759F3F52BFB864300E3C2F6 /* NewTaskVM.swift */; };
+		1759F3F82BFB865F00E3C2F6 /* NewTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759F3F72BFB865F00E3C2F6 /* NewTaskVC.swift */; };
+		1759F3FA2BFB866F00E3C2F6 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759F3F92BFB866F00E3C2F6 /* DetailVC.swift */; };
+		1759F3FD2BFB8D0000E3C2F6 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1759F3FC2BFB8D0000E3C2F6 /* RxSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1759F3C42BFB67E900E3C2F6 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1759F3C72BFB67E900E3C2F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1759F3C92BFB67E900E3C2F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1759F3CB2BFB67E900E3C2F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1759F3CB2BFB67E900E3C2F6 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 		1759F3CE2BFB67E900E3C2F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1759F3D12BFB67E900E3C2F6 /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
 		1759F3D32BFB67EA00E3C2F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1759F3D62BFB67EA00E3C2F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1759F3D82BFB67EA00E3C2F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1759F3E42BFB6E9100E3C2F6 /* MainListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListTableViewCell.swift; sourceTree = "<group>"; };
+		1759F3E72BFB6EC800E3C2F6 /* MainPageVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageVM.swift; sourceTree = "<group>"; };
+		1759F3E92BFB6ED500E3C2F6 /* DetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVM.swift; sourceTree = "<group>"; };
+		1759F3F12BFB6F6E00E3C2F6 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		1759F3F32BFB6F9800E3C2F6 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		1759F3F52BFB864300E3C2F6 /* NewTaskVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskVM.swift; sourceTree = "<group>"; };
+		1759F3F72BFB865F00E3C2F6 /* NewTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskVC.swift; sourceTree = "<group>"; };
+		1759F3F92BFB866F00E3C2F6 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1759F3FD2BFB8D0000E3C2F6 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +78,8 @@
 			children = (
 				1759F3C72BFB67E900E3C2F6 /* AppDelegate.swift */,
 				1759F3C92BFB67E900E3C2F6 /* SceneDelegate.swift */,
-				1759F3CB2BFB67E900E3C2F6 /* ViewController.swift */,
+				1759F3EE2BFB6F1F00E3C2F6 /* Data */,
+				1759F3ED2BFB6EF800E3C2F6 /* Interface */,
 				1759F3CD2BFB67E900E3C2F6 /* Main.storyboard */,
 				1759F3D32BFB67EA00E3C2F6 /* Assets.xcassets */,
 				1759F3D52BFB67EA00E3C2F6 /* LaunchScreen.storyboard */,
@@ -68,6 +87,69 @@
 				1759F3D02BFB67E900E3C2F6 /* ToDoList.xcdatamodeld */,
 			);
 			path = ToDoList;
+			sourceTree = "<group>";
+		};
+		1759F3E22BFB6E2700E3C2F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1759F3CB2BFB67E900E3C2F6 /* MainPage.swift */,
+				1759F3F72BFB865F00E3C2F6 /* NewTaskVC.swift */,
+				1759F3F92BFB866F00E3C2F6 /* DetailVC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1759F3E32BFB6E4400E3C2F6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1759F3E72BFB6EC800E3C2F6 /* MainPageVM.swift */,
+				1759F3E92BFB6ED500E3C2F6 /* DetailVM.swift */,
+				1759F3F52BFB864300E3C2F6 /* NewTaskVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1759F3E62BFB6EA800E3C2F6 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				1759F3E42BFB6E9100E3C2F6 /* MainListTableViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		1759F3ED2BFB6EF800E3C2F6 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1759F3E22BFB6E2700E3C2F6 /* Views */,
+				1759F3E32BFB6E4400E3C2F6 /* ViewModel */,
+				1759F3E62BFB6EA800E3C2F6 /* TableView */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		1759F3EE2BFB6F1F00E3C2F6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1759F3F02BFB6F3100E3C2F6 /* Entity */,
+				1759F3EF2BFB6F2A00E3C2F6 /* Repo */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1759F3EF2BFB6F2A00E3C2F6 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				1759F3F12BFB6F6E00E3C2F6 /* Repository.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		1759F3F02BFB6F3100E3C2F6 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				1759F3F32BFB6F9800E3C2F6 /* Tasks.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +168,9 @@
 			dependencies = (
 			);
 			name = ToDoList;
+			packageProductDependencies = (
+				1759F3FC2BFB8D0000E3C2F6 /* RxSwift */,
+			);
 			productName = ToDoList;
 			productReference = 1759F3C42BFB67E900E3C2F6 /* ToDoList.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +199,9 @@
 				Base,
 			);
 			mainGroup = 1759F3BB2BFB67E900E3C2F6;
+			packageReferences = (
+				1759F3FB2BFB8D0000E3C2F6 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 1759F3C52BFB67E900E3C2F6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,9 +229,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1759F3CC2BFB67E900E3C2F6 /* ViewController.swift in Sources */,
+				1759F3E82BFB6EC800E3C2F6 /* MainPageVM.swift in Sources */,
+				1759F3F62BFB864300E3C2F6 /* NewTaskVM.swift in Sources */,
+				1759F3CC2BFB67E900E3C2F6 /* MainPage.swift in Sources */,
+				1759F3F82BFB865F00E3C2F6 /* NewTaskVC.swift in Sources */,
+				1759F3F42BFB6F9800E3C2F6 /* Tasks.swift in Sources */,
+				1759F3FA2BFB866F00E3C2F6 /* DetailVC.swift in Sources */,
+				1759F3E52BFB6E9100E3C2F6 /* MainListTableViewCell.swift in Sources */,
+				1759F3F22BFB6F6E00E3C2F6 /* Repository.swift in Sources */,
 				1759F3C82BFB67E900E3C2F6 /* AppDelegate.swift in Sources */,
 				1759F3CA2BFB67E900E3C2F6 /* SceneDelegate.swift in Sources */,
+				1759F3EA2BFB6ED500E3C2F6 /* DetailVM.swift in Sources */,
 				1759F3D22BFB67E900E3C2F6 /* ToDoList.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +463,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1759F3FB2BFB8D0000E3C2F6 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1759F3FC2BFB8D0000E3C2F6 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1759F3FB2BFB8D0000E3C2F6 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		1759F3D02BFB67E900E3C2F6 /* ToDoList.xcdatamodeld */ = {
